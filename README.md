@@ -11,13 +11,19 @@ It's a seed project for quick start. Login authentication session management usi
 
 #Steps to use this project :
 
-1.Generate self signed certificate
-⋅⋅*  openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+1. Generate self signed certificate
+    -  openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+
+
 
 2. Insall npm modules
-⋅⋅*  npm install
+   -  npm install
+
 
 3. Start MongoDB
+    - mongod
+
+
 
 4. Start Express Server
-⋅⋅* npm start
+ - npm start
