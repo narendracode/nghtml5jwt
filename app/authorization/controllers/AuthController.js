@@ -16,8 +16,9 @@ exports.testGet = function(req,res,next){
         2.) header "authorization" is set to "bearer <token>" valid API is protected
     
     */
-    
+
     req.user.msg = "Response appended from Server";
+    console.log("  test GET : "+JSON.stringify(req.user));
     return res.json(req.user);
 }
 
@@ -48,8 +49,8 @@ function parseToken(token){
 }
 
 
-
 exports.testPost = function(req,res,next){
+    console.log("  test POST : "+JSON.stringify(req.user));
     res.json({msg: 'response form test post',name:req.body.name});
 }
 
