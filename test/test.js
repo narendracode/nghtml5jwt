@@ -99,6 +99,21 @@ describe('Express rest API test', function() {
             })
         });
         
+        
+        it('#DELETE USER', function (done) {
+            superagent
+                .del(signupUrl)
+                .send({
+                email : 'test@test.com'
+            })
+                .end(function(e,res){
+                expect(e).to.eql(null);
+                expect(res.body.type).to.eql(true);
+                expect(res.body.data).to.eql('user deleted successfully with email test@test.com');
+                done();
+            })
+        });
+        
        it('#TEST-POST', function (done) {
             superagent
                 .post(testBaseUrl)
