@@ -27,3 +27,6 @@ It's a seed project for quick start. Login authentication session management usi
 
 4. Start Express Server
  - npm start
+
+5. Run Tests
+ - mocha test/test.js
