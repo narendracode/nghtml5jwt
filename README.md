@@ -30,3 +30,5 @@ It's a seed project for quick start. Login authentication session management usi
 
 5. Run Tests
  - mocha test/test.js
+
+ .travis.yml, customize this file for continious integration.
