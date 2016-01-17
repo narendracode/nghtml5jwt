@@ -3,3 +3,8 @@ node_js:
 - "4.1.1"
 services:
 - mongodb
+install:
+- npm install
+script:
+- "npm start"
+- "npm test"
