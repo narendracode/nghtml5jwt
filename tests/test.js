@@ -18,10 +18,10 @@ describe('Express rest API test', function() {
     jsdom();
     var user;
     var token;
-    var signupUrl = 'http://localhost:3000/auth/signup';
-    var loginUrl = 'http://localhost:3000/auth/login';
-    var logoutUrl = 'http://localhost:3000/auth/logout';
-    var testBaseUrl = 'http://localhost:3000/auth/test';
+    var signupUrl = 'http://127.0.0.1:3000/auth/signup';
+    var loginUrl = 'http://127.0.0.1:3000/auth/login';
+    var logoutUrl = 'http://127.0.0.1:3000/auth/logout';
+    var testBaseUrl = 'http://127.0.0.1:3000/auth/test';
     
     function urlBase64Decode(str) {
         var output = str.replace('-', '+').replace('_', '/');
