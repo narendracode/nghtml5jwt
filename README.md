@@ -1,5 +1,8 @@
 #nghtml5jwt
 ---
+
+[![Build Status](https://travis-ci.org/narendrasoni1989/nghtml5jwt.svg?branch=master)](https://travis-ci.org/narendrasoni1989/nghtml5jwt)
+
 It's a seed project for quick start. Login authentication session management using AungularJS, ExpressJS and MongoDB. It uses JWT(JSON Web Token) for authentication. Project also demostrates how you can secure your end points and provide security.
 
 
