@@ -5,5 +5,8 @@ services:
 - mongodb
 install:
 - npm install
+- npm install -g forever
+before_script:
+- npm start
 script:
-- "npm test"
+- npm test
