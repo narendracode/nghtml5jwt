@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "forever start ./bin/www",
+    "stop": "forever stop ./bin/www",
     "test":"./node_modules/mocha/bin/mocha ./tests/*"
   },
   "dependencies": {
